@@ -95,6 +95,7 @@ ul {
 
 .link {
   color: var(--darkblack);
+  transition: color 250 ms var(--anime-function);
 }
 
 .link:hover,
@@ -733,7 +734,7 @@ footer {
   align-items: center;
 }
 
-/* МОДАЛКА */
+/* Модальное окно. */
 
 .backdrop {
   position: fixed;
@@ -860,6 +861,28 @@ footer {
   transform: translateY(-50%);
   fill: inherit;
 }
+
+/* label со сдвигом над input*/
+/* 
+.modal-lable-name,
+.modal-lable-tel,
+.modal-lable-mail {
+  position: absolute;
+  top: 50%;
+  left: 42px;
+  transform: translateY(-50%);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: var(--grey-text);
+} */
+
+/* .modal-input-name:focus + .modal-lable-name,
+.modal-input-tel:focus + .modal-lable-tel,
+.modal-input-mail:focus + .modal-lable-mail {
+  transform: translate(-42px, -40px);
+} */
 
 .modal-form-comments {
   position: relative;
