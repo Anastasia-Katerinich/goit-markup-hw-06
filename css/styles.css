@@ -656,11 +656,10 @@ footer {
   fill: var(--white-text);
 }
 
-/*  Форма - Подпишитесь на рассылку */
+/*  ПОДПИШИТЕСЬ НА РАССЫЛКУ */
 
 .signup-form {
   width: 570px;
-  margin: auto;
 }
 
 .signup-title {
@@ -734,7 +733,7 @@ footer {
   align-items: center;
 }
 
-/* Модальное окно. */
+/* МОДАЛКА */
 
 .backdrop {
   position: fixed;
@@ -862,28 +861,6 @@ footer {
   fill: inherit;
 }
 
-/* label со сдвигом над input*/
-/* 
-.modal-lable-name,
-.modal-lable-tel,
-.modal-lable-mail {
-  position: absolute;
-  top: 50%;
-  left: 42px;
-  transform: translateY(-50%);
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
-  color: var(--grey-text);
-} */
-
-/* .modal-input-name:focus + .modal-lable-name,
-.modal-input-tel:focus + .modal-lable-tel,
-.modal-input-mail:focus + .modal-lable-mail {
-  transform: translate(-42px, -40px);
-} */
-
 .modal-form-comments {
   position: relative;
   margin-bottom: 20px;
@@ -936,6 +913,10 @@ footer {
 .modal-checkbox:checked + .icon-modal-confirm {
   background-color: var(--blue-text);
   border: none;
+}
+
+.icon-confirm {
+  color: var(--white-text);
 }
 
 .modal-label-confirm {
