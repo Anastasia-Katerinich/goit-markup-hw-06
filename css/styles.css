@@ -660,6 +660,9 @@ footer {
 
 .signup-form {
   width: 570px;
+  margin: 0 auto;
+  display: inline-block;
+  align-items: center;
 }
 
 .signup-title {
